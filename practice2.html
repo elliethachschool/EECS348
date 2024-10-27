@@ -1,0 +1,32 @@
+<!--
+Name: Ellie Thach
+KUID: 3139476
+LAB Session: 06
+LAB Assignment Number: 06
+Program Description: This html file shows what is seen on the user interface https://people.eecs.ku.edu/~e858t157/practice2.html.
+Collaborators: None
+-->
+
+<html>
+    <head> </head>
+        <body>
+            <h1>EECS 348 Lab 6, Practice 2</h1>
+            <style>
+                #paragraph {
+                    border-style: solid;
+                    border-width: 5px;
+                }
+            </style>
+            <div id="paragraph"> Paragraph to be altered. </div>
+            <script type="text/javascript" src="functions.js"></script> <!-- References javascript file. -->
+            Border R(0-255): <input type="text" id="border_R" value=""> <br>
+            Border G(0-255): <input type="text" id="border_G" value=""> <br>
+            Border B(0-255): <input type="text" id="border_B" value=""> <br>
+            Border Width: <input type="text" id="border_width" value=""> <br>
+            Background R(0-255): <input type="text" id="bg_R" value=""> <br>
+            Background G(0-255): <input type="text" id="bg_G" value=""> <br>
+            Background B(0-255): <input type="text" id="bg_B" value=""> <br>
+            <button onclick="alert_paragraph_color()"> Change the Color </button> <br> <!-- Calls function within javascript file when button is pressed. -->
+        </body>
+
+</html>

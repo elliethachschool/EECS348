@@ -1,0 +1,14 @@
+/*
+Name: Ellie Thach
+KUID: 3139476
+LAB Session: 06
+LAB Assignment Number: 06
+Program Description: This css file changes h1 in practice1.html.
+Collaborators: None
+*/
+
+h1 {
+    color: brown; /* changing header color */
+    background-color: rgb(249, 242, 167); /* changing background color */
+    font-size: 30pt; /* changing font size */
+}
